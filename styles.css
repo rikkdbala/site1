@@ -1,0 +1,29 @@
+@import url(styles/header.css);
+
+:root{
+    --cor-de-fundo: #000000;
+    --cor-cabecalho: #3c0877;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    margin: 0;
+}
+
+.container__imagem{
+    width: 10%;
+    border-radius: 5%;
+}
+
+.container__imagem-titulo{
+    width: 13%;
+    border-radius: 5%;
+}
+
+.container__frase{
+    color: var(--cor-cabecalho);
+}
+
+.container__imagem-titulo{
+    padding: 0 0 0 88em;
+}
